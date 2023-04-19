@@ -1,0 +1,9 @@
+@import url(./__title/intro__title.css);
+@import url(./__descripction/intro__descripction.css);
+
+.intro {
+  width: 1017px;
+  height: 516px;
+  padding-top: 92px;
+  margin: 0 115px 0 148px;
+}

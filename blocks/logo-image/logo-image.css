@@ -1,0 +1,9 @@
+@import url(./__square/logo-image__square.css);
+@import url(./__horizontal-line/logo-image__horizontal-line.css);
+@import url(./__vertical-line/logo-image__vertical-line.css);
+
+.logo-image {
+  width: 32px;
+  height: 32px;
+  position: relative;
+}
