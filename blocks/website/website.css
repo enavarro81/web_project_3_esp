@@ -1,0 +1,8 @@
+@import url(./__url-heading/website__url-heading.css);
+@import url(./__artist/website__artist.css);
+
+.website {
+  width: 456px;
+  height: 45px;
+  padding-top: 107px;
+}

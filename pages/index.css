@@ -1,11 +1,25 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/lead/lead.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/quote/quote.css);
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/_theme/place_theme_gales.css);
+@import url(../blocks/place/_theme/place_theme_usa.css);
+@import url(../blocks/place/_theme/place_theme_burundi.css);
+@import url(../blocks/place/_theme/place__theme_guayaquil.css);
+@import url(../blocks/paragraphs/paragraphs.css);
+@import url(../blocks/website/website.css);
+@import url(../blocks/website/_theme/website_theme_gales.css);
+@import url(../blocks/website/_theme/website_theme_usa.css);
+@import url(../blocks/frame-6/frame-6.css);
+@import url(../blocks/frame-6/_theme/frame-6_theme_cover.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/group-9/group-9.css);
+@import url(../blocks/footer/footer.css);
 
 body {
   color: #fff;
@@ -14,4 +28,17 @@ body {
 
 p {
   margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover .frame-6 {
+  background-color: #0063d2;
+}
+
+ul {
+  list-style: none;
 }

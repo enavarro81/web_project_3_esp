@@ -1,0 +1,6 @@
+.place_theme_burundi {
+  padding-top: 80px;
+  height: 859px;
+  /*grid-template-rows: 152px 460px 150px;*/
+  grid-template-rows: 152px 460px 48px 102px;
+}

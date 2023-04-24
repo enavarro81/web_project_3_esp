@@ -1,0 +1,10 @@
+.cover__background {
+  width: 1184px;
+  height: 740px;
+  background-image: url(../../../images/overlay_1280.jpg);
+  position: absolute;
+}
+
+.cover__background:hover {
+  opacity: 0.3;
+}

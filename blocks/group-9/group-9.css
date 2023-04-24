@@ -1,0 +1,12 @@
+@import url(./__title/group-9__title.css);
+@import url(./__subtitle/group-9__subtitle.css);
+
+.group-9 {
+  width: 656px;
+  height: 254px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+}

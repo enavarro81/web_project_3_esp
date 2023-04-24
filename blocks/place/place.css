@@ -3,10 +3,16 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-  /*width: 984px;
-  height: 756px;*/
+  width: 984px;
+  height: 756px;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  /*grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);*/
+  /*grid-template-columns: 47% 53%;*/
+  grid-template-columns: 474px;
+  grid-template-rows: 152px 460px 48px;
+  /*grid-template-rows: auto 60% auto;*/
   grid-gap: 48px 40px;
+  box-sizing: content-box;
+  /*overflow: hidden;*/
 }

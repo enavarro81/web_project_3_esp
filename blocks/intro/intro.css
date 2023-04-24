@@ -2,8 +2,17 @@
 @import url(./__descripction/intro__descripction.css);
 
 .intro {
-  width: 1017px;
+  width: 79%;
   height: 516px;
   padding-top: 92px;
-  margin: 0 115px 0 148px;
+  margin: 0 9% 0 12%;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    padding-top: 55px;
+    width: 93%;
+    /*height: 607px;*/
+    margin: 0 3% 0 3%;
+  }
 }

@@ -1,5 +1,9 @@
+@import url(./_theme/place__title_theme_ucrania.css);
+@import url(./_theme/place__title_theme_gales.css);
+@import url(./_theme/place__title_theme_usa.css);
+
 .place__title {
-  width: 460px;
+  /*width: 460px;*/
   height: 152px;
   font-weight: 900;
   font-size: 72px;
