@@ -19,6 +19,6 @@
     margin: 0;
     width: 100%;
     /*height: calc(200px + 99px + 720px + 69px + 480px);*/
-    align-items: unset;
+    /*align-items: unset;*/
   }
 }

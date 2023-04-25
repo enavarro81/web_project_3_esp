@@ -2,11 +2,11 @@
 @import url(./__author/quote__author.css);
 
 .quote {
-  width: 722px;
-  height: 136px;
+  max-width: 71%;
+  /*height: 136px;*/
   font-weight: 400;
   font-size: 24px;
-  line-height: 34px;
+  line-height: 142%;
   padding-top: 40px;
   margin: 0;
   position: relative;
@@ -15,6 +15,6 @@
 @media screen and (max-width: 768px) {
   .quote {
     padding-top: 15px;
-    width: 720px;
+    max-width: 100%;
   }
 }
