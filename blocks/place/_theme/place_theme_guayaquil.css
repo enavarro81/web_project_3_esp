@@ -4,15 +4,14 @@
 
 @media screen and (max-width: 1098px) {
   .place_theme_guayaquil {
-    padding-top: 42x;
+    padding-top: 42px;
     grid-template-rows: 89px 340px 74px;
-    /*height: 553px;*/
     height: unset;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place_theme_guayaquil {
-    padding-top: 51x;
+    padding-top: 51px;
   }
 }
