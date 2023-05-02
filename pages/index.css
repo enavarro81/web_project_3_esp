@@ -65,7 +65,7 @@
 
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/__paragraph/button__paragraph.css);
-@import url(../blocks/button/__paragraph/_theme/button__paragraph-theme_cover.css);
+@import url(../blocks/button/__paragraph/_theme/button__paragraph_theme_cover.css);
 @import url(../blocks/button/_theme/button_theme_cover.css);
 
 @import url(../blocks/cover/cover.css);
