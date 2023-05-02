@@ -2,13 +2,6 @@
   padding-top: 80px;
 }
 
-/*
-@media screen and (max-width: 1135px) {
-  .place_theme_gales {
-    height: 781px;
-  }
-}*/
-
 @media screen and (max-width: 1098px) {
   .place_theme_gales {
     padding-top: 31px;

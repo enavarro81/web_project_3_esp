@@ -1,7 +1,7 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
 @import url(./__image/lead__image.css);
-@import url(./_fotoframe/lead__fotoframe.css);
+@import url(./__fotoframe/lead__fotoframe.css);
 
 .lead {
   width: 77%;
