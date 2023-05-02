@@ -1,6 +1,3 @@
-@import url(./__paragraph/button__paragraph.css);
-@import url(./__paragraph/_theme/button__paragraph-theme_cover.css);
-
 .button {
   display: flex;
   flex-direction: column;

@@ -1,6 +1,3 @@
-@import url(./__description/quote__description.css);
-@import url(./__author/quote__author.css);
-
 .quote {
   max-width: 722px;
   font-weight: 400;

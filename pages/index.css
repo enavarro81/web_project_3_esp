@@ -1,26 +1,80 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+
 @import url(../blocks/logo/logo.css);
+@import url(../blocks/logo/__image/logo__image.css);
+
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__fotoframe/lead__fotoframe.css);
+
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__descripction/intro__descripction.css);
+
 @import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__description/quote__description.css);
+@import url(../blocks/quote/__author/quote__author.css);
+
 @import url(../blocks/photo-grid/photo-grid.css);
+@import url(../blocks/photo-grid/__item/photo-grid__item.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_01.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_02.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_03.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_04.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_05.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_06.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_07.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_08.css);
+
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__title/_theme/place__title_theme_ucrania.css);
+@import url(../blocks/place/__title/_theme/place__title_theme_gales.css);
+@import url(../blocks/place/__title/_theme/place__title_theme_usa.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__image/_pic/place__image_pic_ucrania.css);
+@import url(../blocks/place/__image/_pic/place__image_pic_gales.css);
+@import url(../blocks/place/__image/_pic/place__image_pic_usa.css);
+@import url(../blocks/place/__image/_pic/place__image_pic_burindi.css);
+@import url(../blocks/place/__image/_pic/place__image_pic_guayaquil.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/_theme/place_theme_gales.css);
 @import url(../blocks/place/_theme/place_theme_usa.css);
 @import url(../blocks/place/_theme/place_theme_burundi.css);
 @import url(../blocks/place/_theme/place_theme_guayaquil.css);
+
 @import url(../blocks/paragraphs/paragraphs.css);
+@import url(../blocks/paragraphs/_theme/paragraphs_theme_ucrania.css);
+@import url(../blocks/paragraphs/_theme/paragraphs_theme_gales.css);
+@import url(../blocks/paragraphs/_theme/paragraphs_theme_usa.css);
+@import url(../blocks/paragraphs/_theme/paragraphs_theme_burundi.css);
+@import url(../blocks/paragraphs/_theme/paragraphs_theme_guayaquil.css);
+
 @import url(../blocks/website/website.css);
+@import url(../blocks/website/__url-heading/website__url-heading.css);
+@import url(../blocks/website/__artist/website__artist.css);
 @import url(../blocks/website/_theme/website_theme_gales.css);
 @import url(../blocks/website/_theme/website_theme_usa.css);
 @import url(../blocks/website/_theme/website_theme_burundi.css);
 @import url(../blocks/website/_theme/website_theme_guayaquil.css);
+
 @import url(../blocks/button/button.css);
+@import url(../blocks/button/__paragraph/button__paragraph.css);
+@import url(../blocks/button/__paragraph/_theme/button__paragraph-theme_cover.css);
 @import url(../blocks/button/_theme/button_theme_cover.css);
+
 @import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__background/cover__background.css);
+
 @import url(../blocks/about-us/about-us.css);
+@import url(../blocks/about-us/__title/about-us__title.css);
+@import url(../blocks/about-us/__subtitle/about-us__subtitle.css);
+
 @import url(../blocks/footer/footer.css);
 
 body {

@@ -1,7 +1,3 @@
-@import url(./__title/place__title.css);
-@import url(./__image/place__image.css);
-@import url(./__paragraph/place__paragraph.css);
-
 .place {
   max-width: 984px;
   height: 756px;

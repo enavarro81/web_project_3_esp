@@ -1,9 +1,3 @@
-@import url(./_pic/place__image_pic_ucrania.css);
-@import url(./_pic/place__image_pic_gales.css);
-@import url(./_pic/place__image_pic_usa.css);
-@import url(./_pic/place__image_pic_burindi.css);
-@import url(./_pic/place__image_pic_guayaquil.css);
-
 .place__image {
   max-width: 460px;
   max-height: 460px;

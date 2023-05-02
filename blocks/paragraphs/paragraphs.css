@@ -1,9 +1,3 @@
-@import url(./_theme/paragraphs_theme_ucrania.css);
-@import url(./_theme/paragraphs_theme_gales.css);
-@import url(./_theme/paragraphs_theme_usa.css);
-@import url(./_theme/paragraphs_theme_burundi.css);
-@import url(./_theme/paragraphs_theme_guayaquil.css);
-
 .paragraphs {
   grid-row-start: 2;
   grid-row-end: 4;
