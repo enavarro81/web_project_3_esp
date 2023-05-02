@@ -1,0 +1,16 @@
+.paragraphs_theme_ucrania {
+  gap: 25px;
+}
+
+@media screen and (max-width: 768px) {
+  .paragraphs_theme_ucrania {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraphs_theme_ucrania {
+    gap: 7px;
+    padding-bottom: 8px;
+  }
+}

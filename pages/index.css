@@ -15,15 +15,18 @@
 @import url(../blocks/website/website.css);
 @import url(../blocks/website/_theme/website_theme_gales.css);
 @import url(../blocks/website/_theme/website_theme_usa.css);
-@import url(../blocks/frame-6/frame-6.css);
-@import url(../blocks/frame-6/_theme/frame-6_theme_cover.css);
+@import url(../blocks/website/_theme/website_theme_burundi.css);
+@import url(../blocks/website/_theme/website_theme_guayaquil.css);
+@import url(../blocks/button/button.css);
+@import url(../blocks/button/_theme/button_theme_cover.css);
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/group-9/group-9.css);
+@import url(../blocks/about-us/about-us.css);
 @import url(../blocks/footer/footer.css);
 
 body {
   color: #fff;
   font-family: "Inter", serif;
+  background-color: #2a2c2f;
 }
 
 p {
@@ -35,8 +38,9 @@ a {
   color: #fff;
 }
 
-a:hover .frame-6 {
+a:hover .button {
   background-color: #0063d2;
+  transition: background-color 1s ease;
 }
 
 ul {

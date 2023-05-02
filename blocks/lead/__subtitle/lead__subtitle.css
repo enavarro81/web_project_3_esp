@@ -1,18 +1,40 @@
 .lead__subtitle {
   max-width: 720px;
+  min-width: 720px;
   height: 72px;
   font-weight: 400;
   font-size: 30px;
-  line-height: 36px;
+  line-height: 104%;
   text-align: center;
   padding-top: 32px;
   margin: 0 132px;
-  min-width: 720px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 802px) {
   .lead__subtitle {
     padding-top: 99px;
     margin: 0 24px 0 24px;
+    min-width: unset;
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 486px) {
+  .lead__subtitle {
+    font-size: 24px;
+    line-height: 125%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    padding-top: 60px;
+    width: 288px;
+    max-width: 288px;
+    min-width: 288px;
+    height: 40px;
+    margin: 0 16px;
+    font-size: 16px;
+    line-height: 125%;
   }
 }

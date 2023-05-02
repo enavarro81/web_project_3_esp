@@ -1,8 +1,0 @@
-.frame-6_theme_cover {
-  width: 198px;
-  /*height: 48px;*/
-}
-
-body:has(.frame-6_theme_cover:hover) .cover__background {
-  opacity: 0.3;
-}

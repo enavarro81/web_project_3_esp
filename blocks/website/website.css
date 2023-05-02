@@ -2,7 +2,31 @@
 @import url(./__artist/website__artist.css);
 
 .website {
-  width: 456px;
+  width: 94%;
   height: 45px;
   padding-top: 107px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1098px) {
+  .website {
+    max-width: 352px;
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .website {
+    height: unset;
+    max-width: unset;
+    padding-top: 30px;
+    margin: 0 16px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website {
+    max-width: 288px;
+  }
 }

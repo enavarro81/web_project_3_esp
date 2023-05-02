@@ -3,16 +3,57 @@
 @import url(./__paragraph/place__paragraph.css);
 
 .place {
-  width: 984px;
+  max-width: 984px;
+  /*min-width: 737px;*/
   height: 756px;
   display: grid;
-  /*grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);*/
-  /*grid-template-columns: 47% 53%;*/
-  grid-template-columns: 474px;
+
+  /*grid-template-columns: 460px 500px;*/
+  grid-template-columns: minmax(340px, 47%) minmax(417px, 49%);
   grid-template-rows: 152px 460px 48px;
-  /*grid-template-rows: auto 60% auto;*/
   grid-gap: 48px 40px;
-  box-sizing: content-box;
+  /*box-sizing: border-box;*/
   /*overflow: hidden;*/
+}
+
+/*
+@media screen and (max-width: 964px) {
+  .place {
+    grid-template-columns: minmax(340px, 47%) minmax(352px, 49%);
+  }
+}*/
+
+@media screen and (max-width: 1098px) {
+  .place {
+    /*width: 720px;*/
+    /*width: 720px;*/
+    max-width: 768px;
+    height: 600px;
+    grid-gap: 24px 28px;
+    margin: 0 3% 0 3%;
+    /*margin: 0 24px 0 24px;*/
+    grid-template-columns: 340px 352px;
+    /*grid-template-rows: 67px 340px 168px;*/
+    grid-template-rows: 67px 340px 145px;
+  }
+
+  .place_theme_gales {
+    grid-template-rows: 89px 340px 157px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    /*width: 620px;*/
+    max-width: 620px;
+    height: unset;
+    /* height: 600px;
+    grid-gap: 24px 28px;
+    margin: 0 3% 0 3%;*/
+    /*margin: 0 24px 0 24px;*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
 }

@@ -1,0 +1,11 @@
+@media screen and (max-width: 768px) {
+  .website_theme_guayaquil {
+    padding-top: 23px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .website_theme_guayaquil {
+    padding-top: 30px;
+  }
+}

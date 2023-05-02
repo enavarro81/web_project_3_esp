@@ -1,6 +1,23 @@
+@import url(./_theme/paragraphs_theme_ucrania.css);
+@import url(./_theme/paragraphs_theme_gales.css);
+@import url(./_theme/paragraphs_theme_usa.css);
+@import url(./_theme/paragraphs_theme_burundi.css);
+@import url(./_theme/paragraphs_theme_guayaquil.css);
+
 .paragraphs {
   grid-row-start: 2;
   grid-row-end: 4;
   grid-column-start: 2;
   grid-column-end: 3;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 484px;
+}
+
+@media screen and (max-width: 767px) {
+  .paragraphs {
+    max-width: 100%;
+  }
 }

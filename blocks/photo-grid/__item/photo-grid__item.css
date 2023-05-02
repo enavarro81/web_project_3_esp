@@ -10,13 +10,19 @@
 .photo-grid__item {
   width: 284px;
   height: 213px;
+  background-size: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 950px) {
   .photo-grid__item {
-    /*width: 352px;
-    height: 264px;*/
-    width: 100%;
+    width: 352px;
     height: 264px;
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .photo-grid__item {
+    width: 288px;
+    height: 216px;
   }
 }

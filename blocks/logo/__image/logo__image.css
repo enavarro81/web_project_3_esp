@@ -1,5 +1,19 @@
 .logo__image {
   width: 270px;
   height: 70px;
-  background-image: url(../../../images/logo_1280.png);
+  background-image: url(../../../images/logo/logo_1280.png);
+}
+
+@media screen and (max-width: 768px) {
+  .logo__image {
+    background-image: url(../../../images/logo/logo_768.png);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo__image {
+    width: 200px;
+    height: 52px;
+    background-image: url(../../../images/logo/logo_320.png);
+  }
 }

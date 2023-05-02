@@ -1,0 +1,17 @@
+.paragraphs_theme_usa {
+  gap: 17px;
+}
+
+@media screen and (max-width: 1098px) {
+  .paragraphs_theme_usa {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraphs_theme_usa {
+    gap: 0;
+    padding-top: 8px;
+    padding-bottom: 6px;
+  }
+}

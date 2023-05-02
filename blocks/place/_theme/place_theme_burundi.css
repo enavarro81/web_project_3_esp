@@ -1,6 +1,48 @@
 .place_theme_burundi {
   padding-top: 80px;
-  height: 859px;
+  height: 896px;
   /*grid-template-rows: 152px 460px 150px;*/
-  grid-template-rows: 152px 460px 48px 102px;
+  grid-template-rows: 152px 460px 48px 56 px;
+}
+
+/*
+@media screen and (max-width: 1231px) {
+  .place_theme_burundi {
+    height: 893px;
+  }
+}
+
+@media screen and (max-width: 1152px) {
+  .place_theme_burundi {
+    height: 981px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .place_theme_burundi {
+    height: 950px;
+  }
+}
+*/
+
+@media screen and (max-width: 1250px) {
+  .place_theme_burundi {
+    /*height: 934px;*/
+    grid-template-rows: 152px 460px 223px;
+  }
+}
+
+@media screen and (max-width: 1098px) {
+  .place_theme_burundi {
+    padding-top: 25px;
+    grid-template-rows: 91px 340px 73px 265px;
+    height: 844px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place_theme_burundi {
+    padding-top: 17px;
+    height: unset;
+  }
 }

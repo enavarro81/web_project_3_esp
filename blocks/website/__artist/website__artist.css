@@ -1,8 +1,26 @@
 .website__artist {
-  width: 456px;
-  height: 22px;
-  padding-top: 8px;
+  width: 100%;
   font-weight: 400;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 122%;
+  margin-right: 6%;
+}
+
+@media screen and (max-width: 1098px) {
+  .website__artist {
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .website__artist {
+    max-width: unset;
+    padding-top: 8px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .website__artist {
+    max-width: 288px;
+  }
 }

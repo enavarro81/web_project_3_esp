@@ -1,0 +1,17 @@
+.paragraphs_theme_guayaquil {
+  gap: 25px;
+}
+
+@media screen and (max-width: 1098px) {
+  .paragraphs_theme_guayaquil {
+    gap: 14px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraphs_theme_guayaquil {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    gap: 10px;
+  }
+}

@@ -1,3 +1,15 @@
 .website_theme_usa {
   padding-top: 76px;
 }
+
+@media screen and (max-width: 1098px) {
+  .website_theme_usa {
+    padding-top: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .website_theme_usa {
+    padding-top: 9px;
+  }
+}

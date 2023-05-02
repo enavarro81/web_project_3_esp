@@ -1,0 +1,18 @@
+.button__paragraph {
+  width: 315px;
+  height: 22px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 767px) {
+  .button__paragraph {
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+  }
+}

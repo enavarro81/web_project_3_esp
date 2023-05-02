@@ -1,0 +1,17 @@
+.paragraphs_theme_gales {
+  gap: 56px;
+}
+
+@media screen and (max-width: 768px) {
+  .paragraphs_theme_gales {
+    gap: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .paragraphs_theme_gales {
+    padding-top: 16px;
+    padding-bottom: 7px;
+    gap: 10px;
+  }
+}

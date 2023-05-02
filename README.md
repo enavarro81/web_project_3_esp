@@ -1,19 +1,24 @@
 # Project 3: De patria a patria
-### Descripción general    
-* Introducción  
-* Figma  
-* Imágenes  
-  
-**Introducción**    
-  
-Este es un proyecto que muestra las ciudades natales de algunos de los empleados de Practicum. Lo hemos diseñado de tal modo que todos los elementos se muestren correctamente en los tamaños de pantalla más habituales. Recomendamos invertir más tiempo en completar este proyecto, ya que es más difícil que los anteriores.     
-  
-**Figma**  
-  
-* [Enlace al proyecto en Figma](https://www.figma.com/file/ZW8wxTYTZH2czTTfDMVHWq/WEB%2C-Sprint-3-%3A-De-patria-a-patria-%7C-desktop-%2B-mobile?node-id=0%3A1)  
-  
-**Imágenes**  
-  
-A la hora de trabajar, debes optar por exportar las imágenes directamente desde Figma; te recomendamos hacerlo para practicar más. No olvides optimizarlas [aquí](https://tinypng.com/), para que tu proyecto cargue más rápido.   
-  
-¡Mucha suerte y que te lo pases bien! 
+
+### Descripción general
+
+- Introducción
+- Tecnologias
+- Enlace a GitHub
+
+**Introducción**
+
+Este proyecto es la culminación del sprint #4 pertenciente al bootcamp de _Desarrollador Web_ de **Practicum**, en el cual ponemos en práctica e implementamos todo lo que hemos aprendido a los largo de las últimas 2 semanas. El proyecto consiste en describir algunas de las ciudades de los empleados de Practicum de forma que se adapte a las principales tamaños de pantallas que podemos encontrar en el mercado.
+
+**Tecnologias**
+
+- HTML
+- Animaciones en CSS
+- Media Queries
+- Rutas y organización de Archivos con BEM
+- Git
+- Figma
+
+**Enlace a GitHub**
+
+- [Enlace al proyecto en GitHub](https://enavarro81.github.io/web_project_3_esp/)

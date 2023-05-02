@@ -1,19 +1,27 @@
-@import url(./_theme/place__paragraph_theme_ucrania-1.css);
-@import url(./_theme/place__paragraph_theme_ucrania-2.css);
-@import url(./_theme/place__paragraph_theme_gales-1.css);
-@import url(./_theme/place__paragraph_theme_gales-2.css);
-@import url(./_theme/place__paragraph_theme_usa-1.css);
-@import url(./_theme/place__paragraph_theme_usa-2.css);
-@import url(./_theme/place__paragraph_theme_burundi-1.css);
-@import url(./_theme/place__paragraph_theme_burundi-2.css);
-@import url(./_theme/place__paragraph_theme_burundi-3.css);
-@import url(./_theme/place__paragraph_theme_guayaquil-1.css);
-@import url(./_theme/place__paragraph_theme_guayaquil-2.css);
-
 .place__paragraph {
-  width: 484px;
+  /*max-width: 484px;*/
   /*height: 203px;*/
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 163%;
+}
+
+@media screen and (max-width: 1098px) {
+  .place__paragraph {
+    font-size: 16px;
+    max-width: 352px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    max-width: unset;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    max-width: 288px;
+    margin: 0 16px;
+  }
 }

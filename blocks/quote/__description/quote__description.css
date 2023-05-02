@@ -1,4 +1,4 @@
 .quote__description {
   margin: 0;
-  min-width: 720px;
+  max-width: 720px;
 }

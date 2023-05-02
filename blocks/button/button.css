@@ -1,0 +1,31 @@
+@import url(./__paragraph/button__paragraph.css);
+@import url(./__paragraph/_theme/button__paragraph-theme_cover.css);
+
+.button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 355px;
+  height: 48px;
+  padding: 13px 20px 13px 20px;
+  background-color: #0278fe;
+  border-radius: 4px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .button {
+    margin-top: 8px;
+    padding: 16px 22px 15px 21px;
+    width: 288px;
+    margin: 0 16px;
+  }
+}

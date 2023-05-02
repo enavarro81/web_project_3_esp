@@ -1,3 +1,18 @@
 .place__theme_guayaquil {
   padding-top: 51px;
 }
+
+@media screen and (max-width: 1098px) {
+  .place__theme_guayaquil {
+    padding-top: 42x;
+    grid-template-rows: 89px 340px 74px;
+    /*height: 553px;*/
+    height: unset;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place__theme_guayaquil {
+    padding-top: 51x;
+  }
+}
