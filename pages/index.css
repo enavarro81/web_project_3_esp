@@ -21,14 +21,14 @@
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_01.css);
-@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_02.css);
-@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_03.css);
-@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_04.css);
-@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_05.css);
-@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_06.css);
-@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_07.css);
-@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_08.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_beach-view-1.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_beach-view-2.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_church.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_bridge.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_countryside.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_park.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_hut.css);
+@import url(../blocks/photo-grid/__item/_pic/photo-grid__item_pic_mountains.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);
@@ -100,4 +100,5 @@ a:hover .button {
 
 ul {
   list-style: none;
+  padding-left: 0;
 }
